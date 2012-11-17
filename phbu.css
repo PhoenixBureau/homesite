@@ -1,0 +1,54 @@
+
+h1 {
+  font-family: 'Akronim', cursive;
+  font-weight: normal;
+  text-align: center;
+  font-size: 86pt;
+  margin: 0;
+  background-image: url(images/greyish.png);
+  border: 3px solid grey;
+}
+
+h2, h3 {
+  background-image: url(images/greyish.png);
+  border-top: 1px solid grey;
+  padding: 0.25em;
+}
+
+body {
+  background-image: url(htdocs/lava-rock.png);
+  background-color: #000;
+  color: #FF7B00;
+}
+
+#top {
+  margin-top: 2em;
+  border: 1px solid grey;
+  padding: 0.5em;
+  margin-left: 0px auto;
+  margin-right: 0px auto;
+  text-align: center;
+  width: 330px;
+  background-image: url(images/greyish.png);
+}
+
+#top > img {
+  border: 1px solid grey;
+}
+
+span.term {
+  font-weight: bold;
+  font-family: "monospace";
+}
+span.term:hover {
+  font-style:italic;
+}
+
+.arti {
+  margin-left: 5em;
+}
+
+.caption {
+  font-family: "sans";
+  font-size: 75%;
+}
