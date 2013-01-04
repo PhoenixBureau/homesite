@@ -148,6 +148,12 @@ header a.button {
   top: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
+
+img.avatar {
+  border: solid 1px #2879d0;
+  padding: 1px;
+}
+
 aside a.button {
   width: 138px;
   padding-left: 64px;
@@ -223,6 +229,14 @@ form {
 
 
 /* GENERAL ELEMENT TYPE STYLES */
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
 
 #main-content h1 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
@@ -309,9 +323,13 @@ h6:before {
 p {
   margin-bottom: 20px;
 }
- 
+
 a {
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 p a {
