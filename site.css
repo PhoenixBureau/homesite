@@ -1,9 +1,14 @@
-h1 {
+h1, h3 {
  font-family: 'EB Garamond', cursive;
  font-weight: normal;
  text-align: center;
- font-size: 86pt;
  margin: 0;
+}
+h1 {
+ font-size: 86pt;
+}
+h3 {
+ font-size: 48pt;
 }
 body {
  background-color: #fff;
