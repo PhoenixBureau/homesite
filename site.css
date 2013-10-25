@@ -1,0 +1,27 @@
+h1 {
+ font-family: 'EB Garamond', cursive;
+ font-weight: normal;
+ text-align: center;
+ font-size: 86pt;
+ margin: 0;
+}
+body {
+ background-color: #fff;
+ color: #000;
+ font-family: 'EB Garamond', serif;
+}
+p {
+ max-width: 30em;
+ text-align: justify;
+ font-size: 16pt;
+ margin: auto;
+ padding-bottom: 1.5em;
+}
+p.attrib {
+ text-align: right;
+}
+hr {
+ margin-bottom: 2.25em;
+ max-width: 30em;
+ border: 0; height: 1px; background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
